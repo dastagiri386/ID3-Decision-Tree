@@ -11,4 +11,4 @@ The decision-learner is implemented according to the following guidelines:
 - If the number of training instances that reach a leaf node is 0, the leaf should predict the the most common class of instances reaching the parent node.
 
 ## Running the program
-dt-learn <train-set-file> <test-set-file> m
+dt-learn train-set-file test-set-file m
